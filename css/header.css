@@ -1,5 +1,6 @@
 @charset 'utf-8';
 
+.header{position:relative;}
 .header>.content{width:93.28125%;max-width:1194px;height:80px;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;background-color:#ffffff;}
 .nav>ul{display:flex;flex-flow:row nowrap;}
 .nav>ul>li{padding-right:20px;}
@@ -11,3 +12,5 @@
 .header_icons>ul>li:last-child{padding-right:0;font-size:16px;}
 .header_icons img{width:20px;}
 .header_icons img:nth-child(2){display:none;}
+.search_form{position:absolute;left:0;top:100%;width:100%;height:100%;padding:10px 10%;background:#f7f7f7;display:flex;flex-flow:row nowrap;justify-content:space-between;align-items:center;}
+.search_form>input:first-child{width:70%;padding:6px;font-size:24px;background:#f7f7f7;}

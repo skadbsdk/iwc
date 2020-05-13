@@ -1,0 +1,31 @@
+@charset 'utf-8';
+
+.header>.content{
+  width:93.28125%;
+  max-width:1194px;
+  height:80px; 
+  display:flex;
+  flex-flow:row nowrap;
+  justify-content:space-between;
+  align-items:center;
+  background-color:#ffffff;
+}
+.nav>ul{
+  display:flex;
+  flex-flow:row nowrap;
+}
+.nav>ul>li{
+  padding-right:20px;
+}
+.nav>ul>li>a{
+  font-size:16px;
+}
+.logo img{
+  width:120px;  
+}
+.header_icons img{
+  width:20px;
+}
+.header_icons img:nth-child(2){
+  display:none;
+}

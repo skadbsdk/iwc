@@ -1,0 +1,9 @@
+$(function(){
+  $('.skip>a').focus(function(){
+    $('.skip>a').removeClass('active');
+    $(this).addClass('active');
+  });
+  $('.skip>a').focusout(function(){
+    $('.skip>a').removeClass('active');
+  });
+})

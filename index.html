@@ -20,31 +20,71 @@
   <script src="js/jquery-3.5.0.min.js"></script>
   <title>스위스 럭셔리 시계 | IWC 샤프하우젠</title>
   
-  <style>
-    /* skip style */
-    .skip{
-      position:absolute;
-      left:0;
-      top:0;
-      z-index:999999;
-      display:flex;
-      flex-flow:column;
-    }
-    .skip>a{
-      padding:6px;
-      background-color:black;
-      text-decoration:none;     
-      font-weight:bold;
-      font-size:16px;
-      color:#b19c5e;
-    }
+  <script src="js/skip.js"></script>
 
-  </style>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/iwc_basic.css">
+  <link rel="stylesheet" href="css/skip.css">
+  <link rel="stylesheet" href="css/header.css">
+  
+ 
 </head>
 <body>
-  <div class="skip">
-    <a href="#">HEADER.SKIPLINKTEXT</a>
-    <a href="#">HEADER.SKIPLINKMENU</a>
+  <div class="wrap">
+    <div class="skip">
+      <a href="#">HEADER.SKIPLINKTEXT</a>
+      <a href="#">HEADER.SKIPLINKMENU</a>
+    </div>
+    <header class="header">
+      <div class="content">
+        <nav class="nav">
+          <ul>
+            <li><a href="#" onclick="return false;">메뉴</a></li>
+            <li><a href="#" onclick="return false;">시계</a></li>
+            <li><a href="#">포르투기저 2020</a></li>
+          </ul>
+        </nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo.svg" alt="로고">
+          </a>
+        </div>
+        <div class="header_icons">
+          <ul>
+            <li>
+              <a href="#" onclick="return false;">
+                <img src="images/header_icons_01-1.svg" alt="icon01-1">
+                <img src="images/header_icons_01.svg" alt="icon01">
+              </a>
+            </li>
+            <li>
+              <a href="#" onclick="return false;">
+                <img src="images/header_icons_02-1.svg" alt="icon02-1">
+                <img src="images/header_icons_02.svg" alt="icon02">
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/header_icons_03-1.svg" alt="icon03-1">
+                <img src="images/header_icons_03.svg" alt="icon03">
+              </a>
+            </li>
+            <li>
+              <a href="#" onclick="return false;">
+                세로선
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                KR
+                <span>^</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
   </div>
+
 </body>
 </html>

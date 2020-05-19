@@ -8,6 +8,7 @@ $(function(){
     if(submenuBottom=='80px'){
       close_sub_menu();
       $('.submenu').css('bottom','-'+submenuHeight+'px');
+      $('.submenu').css('background-color','#ffffff');
     }else{
       $('.submenu').css('bottom','100%');
     }
@@ -42,6 +43,7 @@ $(function(){
   function fsubwatcheBottom(){
     var subwatcheHeight=$('.subwatche').height();
     $('.subwatche').css('bottom','-'+subwatcheHeight+'px');
+    $('.subwatche').css('background-color','#ffffff');
   }
   function watchePaddingTop(){
     var watchesWidth=$('.watches').width();
@@ -56,9 +58,12 @@ $(function(){
       close_sub_menu();
       $('.search_form').css('display','flex');
       $('#search01').focus();
+      var search_form_height=$('.search_form').height();
+      $('.banner').css('padding-top',search_form_height);
     }else if(tmp=='flex'){
       $('.search_form').css('display','none');
       $('#search01').blur();
+      $('.banner').css('padding-top',0);m
     }
   });
   // start login form event

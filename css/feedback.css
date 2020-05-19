@@ -1,9 +1,10 @@
 @charset 'utf-8';
 
 .feedback>#feedback_btn{
-  position: fixed;;
+  position: fixed;
   right:0;
   top:50%;
+  z-index:10;
   transform:translateY(-50%) rotate(90deg);
   margin-right:-34px;
   padding:6px 30px;

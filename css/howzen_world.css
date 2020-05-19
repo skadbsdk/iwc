@@ -1,0 +1,27 @@
+@charset 'utf-8';
+.section.howzen_world{
+  margin-bottom:0;
+}
+
+.howzen_world h2{
+  font-size:24px;
+}
+.howzen_container{
+  display:flex;
+  flex-flow:row wrap;
+  justify-content:space-between;
+}
+.howzen01{
+  width:100%;
+}
+.howzen02,.howzen03{
+  width:48%;
+}
+@media (max-width:767px){
+  .howzen02,.howzen03{
+    width:100%;
+  }
+  .howzen_world h2{
+    font-size:18px;
+  }
+}

@@ -1,0 +1,35 @@
+@charset 'utf-8';
+
+
+
+.service_8years{
+  height:260px;
+  display:flex;
+  flex-flow:column nowrap;
+  justify-content:space-between;
+  align-items:center;
+  font-size:14px;
+}
+.service_8years>a{
+  color:#999999;
+  transition:0.3s;
+}
+.service_8years>a:hover{
+  color:#b19c5e;
+}
+.service_8years .image{
+  width:300px;
+}
+.service_8years .image img{
+  width:100%;
+}
+
+@media (max-width:767px){
+  .service_8years{
+    font-size:12px;
+  }
+  .service_8years .image{
+    width:90%;
+  }
+}
+

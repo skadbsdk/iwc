@@ -1,0 +1,18 @@
+@charset 'utf-8';
+
+#link_top{
+  position: fixed;
+  right:0;
+  top:80%;
+  z-index:10;
+  opacity:0;  
+  transition:0.3s;
+}
+#link_top.active{
+  opacity:1;
+}
+#link_top>a{
+  padding:20px;
+  background-color:#000000;
+  color:#ffffff;
+}
